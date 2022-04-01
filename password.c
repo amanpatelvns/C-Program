@@ -2,7 +2,7 @@
 
 int main()
 {
-	char ch, pass[100];
+	char ch, password[100];
 	int i=0;
 	for(i=0;;)
 	{
@@ -18,10 +18,10 @@ int main()
 		else
 		{		
 		printf("*");
-		pass[i++] = ch;
+		password[i++] = ch;
     	}
     	
 	}
-	pass[i] = '\0';
-	printf("\nEnter password id %s",pass);
+	password[i] = '\0';
+	printf("\nEnter password id %s",password);
 }
